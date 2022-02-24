@@ -1,0 +1,4 @@
+# This file is for Netlify deploy button
+
+[template.environment]
+  GITHUB_TOKEN = "You GitHub access token"
