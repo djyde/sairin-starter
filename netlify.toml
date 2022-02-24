@@ -6,3 +6,6 @@
 
 [template.environment]
   GITHUB_TOKEN = "You GitHub access token"
+
+[context.production]
+  environment = { NETLIFY_NEXT_PLUGIN_SKIP = "true" }
